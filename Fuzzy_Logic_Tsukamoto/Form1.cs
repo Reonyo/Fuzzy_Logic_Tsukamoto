@@ -130,7 +130,7 @@ namespace Fuzzy_Logic_Tsukamoto
             }
             else if (alpha >= 0)
             {
-                return ((5 * alpha) + 60);
+                return ((90 * alpha) + 60);
             }
             else
             {
