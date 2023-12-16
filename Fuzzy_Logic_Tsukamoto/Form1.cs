@@ -34,43 +34,43 @@ namespace Fuzzy_Logic_Tsukamoto
         {
             alphaDataList = new List<AlphaData>
              {
-                new AlphaData { NilaiAlpha = "Sales Banyak" },
-                new AlphaData { NilaiAlpha = "Sales Sedang" },
-                new AlphaData { NilaiAlpha = "Sales Sedikit" }
+                new AlphaData { NilaiAlpha = "Penjualan Banyak" },
+                new AlphaData { NilaiAlpha = "Penjualan Sedang" },
+                new AlphaData { NilaiAlpha = "Penjualan Sedikit" }
                 };
             ZDataList = new List<ZData>
             {
-                new ZData { NilaiZ = "Sales Banyak" },
-                new ZData { NilaiZ = "Sales Sedang" },
-                new ZData { NilaiZ = "Sales Sedikit" }
+                new ZData { NilaiZ = "Penjualan Banyak" },
+                new ZData { NilaiZ = "Penjualan Sedang" },
+                new ZData { NilaiZ = "Penjualan Sedikit" }
             };
         }
         //Customized Function
        private void UpdateDataGridValue()
         {
-            alphaDataList[0].PersediaanBanyak = Math.Round(alpha[0, 0], 4);//Penjualan Banyak
-            alphaDataList[0].PersediaanSedang = Math.Round(alpha[0, 1], 4);
-            alphaDataList[0].PersediaanSedikit = Math.Round(alpha[0, 2], 4);
+            alphaDataList[0].PenjualanBanyak = Math.Round(alpha[0, 0], 4);//Penjualan Banyak
+            alphaDataList[0].PenjualanSedang = Math.Round(alpha[0, 1], 4);
+            alphaDataList[0].PenjualanSedikit = Math.Round(alpha[0, 2], 4);
 
-            alphaDataList[1].PersediaanBanyak = Math.Round(alpha[1, 0], 4);//Penjualan Sedang
-            alphaDataList[1].PersediaanSedang = Math.Round(alpha[1, 1], 4);
-            alphaDataList[1].PersediaanSedikit = Math.Round(alpha[1, 2], 4);
+            alphaDataList[1].PenjualanBanyak = Math.Round(alpha[1, 0], 4);//Penjualan Sedang
+            alphaDataList[1].PenjualanSedang = Math.Round(alpha[1, 1], 4);
+            alphaDataList[1].PenjualanSedikit = Math.Round(alpha[1, 2], 4);
 
-            alphaDataList[2].PersediaanBanyak = Math.Round(alpha[2, 0], 4);//Penjualan Sedikit
-            alphaDataList[2].PersediaanSedang = Math.Round(alpha[2, 1], 4);
-            alphaDataList[2].PersediaanSedikit = Math.Round(alpha[2, 2], 4);
+            alphaDataList[2].PenjualanBanyak = Math.Round(alpha[2, 0], 4);//Penjualan Sedikit
+            alphaDataList[2].PenjualanSedang = Math.Round(alpha[2, 1], 4);
+            alphaDataList[2].PenjualanSedikit = Math.Round(alpha[2, 2], 4);
 
-            ZDataList[0].PersediaanBanyak = Math.Round(Z[0, 0], 4);
-            ZDataList[0].PersediaanSedang = Math.Round(Z[0, 1], 4);
-            ZDataList[0].PersediaanSedikit = Math.Round(Z[0, 2], 4);
+            ZDataList[0].PenjualanBanyak = Math.Round(Z[0, 0], 4);
+            ZDataList[0].PenjualanSedang = Math.Round(Z[0, 1], 4);
+            ZDataList[0].PenjualanSedikit = Math.Round(Z[0, 2], 4);
 
-            ZDataList[1].PersediaanBanyak = Math.Round(Z[1, 0], 4);
-            ZDataList[1].PersediaanSedang = Math.Round(Z[1, 1], 4);
-            ZDataList[1].PersediaanSedikit = Math.Round(Z[1, 2], 4);
+            ZDataList[1].PenjualanBanyak = Math.Round(Z[1, 0], 4);
+            ZDataList[1].PenjualanSedang = Math.Round(Z[1, 1], 4);
+            ZDataList[1].PenjualanSedikit = Math.Round(Z[1, 2], 4);
 
-            ZDataList[2].PersediaanBanyak = Math.Round(Z[2, 0], 4);
-            ZDataList[2].PersediaanSedang = Math.Round(Z[2, 1], 4);
-            ZDataList[2].PersediaanSedikit = Math.Round(Z[2, 2], 4);
+            ZDataList[2].PenjualanBanyak = Math.Round(Z[2, 0], 4);
+            ZDataList[2].PenjualanSedang = Math.Round(Z[2, 1], 4);
+            ZDataList[2].PenjualanSedikit = Math.Round(Z[2, 2], 4);
         }
         private double Min(double value_1, double value_2)
         {
