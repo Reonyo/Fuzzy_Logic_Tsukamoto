@@ -34,15 +34,15 @@ namespace Fuzzy_Logic_Tsukamoto
         {
             alphaDataList = new List<AlphaData>
              {
-                new AlphaData { NilaiAlpha = "Penjualan Banyak" },
-                new AlphaData { NilaiAlpha = "Penjualan Sedang" },
-                new AlphaData { NilaiAlpha = "Penjualan Sedikit" }
+                new AlphaData { NilaiAlpha = "Persediaan Banyak" },
+                new AlphaData { NilaiAlpha = "Persediaan Sedang" },
+                new AlphaData { NilaiAlpha = "Persediaan Sedikit" }
                 };
             ZDataList = new List<ZData>
             {
-                new ZData { NilaiZ = "Penjualan Banyak" },
-                new ZData { NilaiZ = "Penjualan Sedang" },
-                new ZData { NilaiZ = "Penjualan Sedikit" }
+                new ZData { NilaiZ = "Persediaan Banyak" },
+                new ZData { NilaiZ = "Persediaan Sedang" },
+                new ZData { NilaiZ = "Persediaan Sedikit" }
             };
         }
         //Customized Function
