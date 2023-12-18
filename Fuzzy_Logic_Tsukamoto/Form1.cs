@@ -291,7 +291,8 @@ namespace Fuzzy_Logic_Tsukamoto
                 }
             }
             pembelian = alpha_mult_z / total_alpha;
-            label4.Text = "Rekomendasi Jumlah Pembelian : " + pembelian.ToString("F2");
+            double pembelian_rounded = Math.Round(pembelian, 0);
+            label4.Text = "Rekomendasi Jumlah Pembelian : " + pembelian_rounded.ToString();
             btn_updategambar.Enabled = true;
             combobox_visualisasi.Enabled = true;
             UpdateDataGridValue();
