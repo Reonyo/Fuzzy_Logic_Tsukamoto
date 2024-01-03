@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
+            this.combobox_visualisasi = new System.Windows.Forms.ComboBox();
             this.btn_updategambar = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.lbl_pembelian = new System.Windows.Forms.Label();
@@ -39,7 +40,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.combobox_visualisasi = new System.Windows.Forms.ComboBox();
             this.datagridview = new System.Windows.Forms.DataGridView();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
@@ -67,8 +67,21 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(147, 252);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(644, 149);
+            this.panel2.Size = new System.Drawing.Size(643, 149);
             this.panel2.TabIndex = 1;
+            // 
+            // combobox_visualisasi
+            // 
+            this.combobox_visualisasi.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.combobox_visualisasi.Enabled = false;
+            this.combobox_visualisasi.FormattingEnabled = true;
+            this.combobox_visualisasi.Items.AddRange(new object[] {
+            "Tabel Nilai α",
+            "Tabel Nilai Z"});
+            this.combobox_visualisasi.Location = new System.Drawing.Point(397, 47);
+            this.combobox_visualisasi.Name = "combobox_visualisasi";
+            this.combobox_visualisasi.Size = new System.Drawing.Size(215, 29);
+            this.combobox_visualisasi.TabIndex = 13;
             // 
             // btn_updategambar
             // 
@@ -162,25 +175,12 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Jumlah Persediaan : ";
             // 
-            // combobox_visualisasi
-            // 
-            this.combobox_visualisasi.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.combobox_visualisasi.Enabled = false;
-            this.combobox_visualisasi.FormattingEnabled = true;
-            this.combobox_visualisasi.Items.AddRange(new object[] {
-            "Tabel Nilai α",
-            "Tabel Nilai Z"});
-            this.combobox_visualisasi.Location = new System.Drawing.Point(397, 47);
-            this.combobox_visualisasi.Name = "combobox_visualisasi";
-            this.combobox_visualisasi.Size = new System.Drawing.Size(215, 29);
-            this.combobox_visualisasi.TabIndex = 13;
-            // 
             // datagridview
             // 
             this.datagridview.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.datagridview.Location = new System.Drawing.Point(147, 0);
             this.datagridview.Name = "datagridview";
-            this.datagridview.Size = new System.Drawing.Size(632, 246);
+            this.datagridview.Size = new System.Drawing.Size(643, 246);
             this.datagridview.TabIndex = 2;
             // 
             // panel3
@@ -207,12 +207,12 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(5, 25);
+            this.label6.Location = new System.Drawing.Point(2, 33);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(142, 189);
             this.label6.TabIndex = 3;
-            this.label6.Text = "Kelompok ?\r\n1. Try Putri C S \r\n   (181221019)\r\n2. Nurhalisa Ishak\r\n   (5023100102" +
-    "49)\r\n3. M Zaffal K A\r\n   (181221029)\r\n4. Reyner O\r\n    (181221042)";
+            this.label6.Text = "Kelompok 10\r\n1. Try Putri C S \r\n   (181221019)\r\n2. Nurhalisa Ishak\r\n   (502310010" +
+    "249)\r\n3. M Zaffal K A\r\n   (181221029)\r\n4. Reyner O\r\n    (181221042)";
             // 
             // panel1
             // 
@@ -228,7 +228,7 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(44)))), ((int)(((byte)(45)))));
-            this.ClientSize = new System.Drawing.Size(791, 401);
+            this.ClientSize = new System.Drawing.Size(790, 401);
             this.Controls.Add(this.datagridview);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
